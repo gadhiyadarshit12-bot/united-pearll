@@ -1,0 +1,6 @@
+# Zip files
+*.zip
+
+# Local files
+.DS_Store
+Thumbs.db
