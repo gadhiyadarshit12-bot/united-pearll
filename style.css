@@ -1188,3 +1188,71 @@ footer {
     text-align: center;
   }
 }
+
+/* Ad Skeleton Loader */
+.ad-wrapper {
+  position: relative;
+  min-height: 90px;
+  width: 100%;
+  max-width: 728px;
+  background: var(--bg-secondary);
+  border-radius: 12px;
+  border: 1px dashed var(--border-color);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+}
+
+.ad-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(79, 70, 229, 0) 0%,
+    rgba(79, 70, 229, 0.05) 50%,
+    rgba(79, 70, 229, 0) 100%
+  );
+  background-size: 200% 100%;
+  animation: ad-shimmer 1.5s infinite linear;
+}
+
+.ad-wrapper::after {
+  content: "Advertisement";
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Hide the skeleton styling when AdSense fills the ad */
+.ad-wrapper:has(ins[data-ad-status="filled"])::before,
+.ad-wrapper:has(ins[data-ad-status="filled"])::after {
+  display: none !important;
+}
+
+.ad-wrapper:has(ins[data-ad-status="filled"]) {
+  border-style: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+@keyframes ad-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
