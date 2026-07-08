@@ -653,6 +653,7 @@ nav {
   object-fit: cover;
   object-position: top;
   transition: transform var(--transition-slow);
+  content-visibility: auto;
 }
 
 .web-card:hover .web-preview img {
