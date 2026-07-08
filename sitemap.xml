@@ -10,12 +10,68 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- Blog Listing -->
+  <url>
+    <loc>https://unitedpearl.in/blog/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Blog 1: Website Cost -->
+  <url>
+    <loc>https://unitedpearl.in/blog/how-much-does-a-website-cost.html</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog 2: Mobile App Benefits -->
+  <url>
+    <loc>https://unitedpearl.in/blog/why-your-business-needs-a-mobile-app.html</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog 3: Google Ads Guide -->
+  <url>
+    <loc>https://unitedpearl.in/blog/how-to-run-google-ads-for-small-business.html</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog 4: Next.js vs React -->
+  <url>
+    <loc>https://unitedpearl.in/blog/nextjs-vs-react-which-framework-should-you-choose.html</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog 5: GEO vs SEO -->
+  <url>
+    <loc>https://unitedpearl.in/blog/what-is-generative-engine-optimization-geo.html</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog 6: App Development Cost -->
+  <url>
+    <loc>https://unitedpearl.in/blog/how-much-does-custom-app-development-cost.html</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Services Section -->
   <url>
     <loc>https://unitedpearl.in/#services</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 
   <!-- Portfolio Section -->
@@ -23,7 +79,7 @@
     <loc>https://unitedpearl.in/#portfolio</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
 
   <!-- FAQ Section -->
